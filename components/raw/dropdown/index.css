@@ -1,0 +1,12 @@
+.Dropdown-menu {
+  position: absolute;
+}
+
+.Dropdown-menu[aria-hidden=true] {
+  display: none;
+}
+
+.Dropdown-menu:target,
+.Dropdown-menu[aria-hidden=false] {
+  display: block;
+}
